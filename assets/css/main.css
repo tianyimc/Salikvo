@@ -216,3 +216,14 @@ a { color: #333; }
   .links a:hover { color: #E4ECFA; border-bottom-color: #99A3BA; }
   .location { color: #6C7486; }
 }
+
+#bg {
+    /* 设置背景图片为bg.png */
+    background-image: url("img/bg.jpg");
+    /* 设置背景大小为覆盖整个元素 */
+    background-size: cover;
+    /* 设置背景位置为居中 */
+    background-position: center;
+    /* 设置背景重复为不重复 */
+    background-repeat: no-repeat;
+}
